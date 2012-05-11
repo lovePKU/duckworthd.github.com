@@ -27,7 +27,7 @@ $$
 \end{align}
 $$
 
-  Uh oh.  Now that $$w$$ appears in our Stochastic Gradient Descent update equation, you're going to have change *every* non-zero element of $$w$$ at each iteration, even if $$\nabla_w l(x_i, y_i, w)$$ is sparse!  Whatever shall you do?
+  Uh oh.  Now that $$w$$ appears in our Stochastic Gradient Descent update equation, you're going to have change *every* non-zero element of $$w$$ at *every* iteration, even if $$\nabla_w l(x_i, y_i, w)$$ is sparse!  Whatever shall you do?
 
   The answer isn't as scary as you might think.  Let's do some algebraic manipulation from $$t=0$$,
 
@@ -47,8 +47,8 @@ $$
 
 $$
 \begin{align}
-  c & = \prod_{\tau=0}^t (1-\eta_{\tau} \lambda )  \\
-  \bar{w}_t & = \frac{w_t}{c}
+  c_t & = \prod_{\tau=0}^t (1-\eta_{\tau} \lambda )  \\
+  \bar{w}_t & = \frac{w_t}{c_t}
 \end{align}
 $$
 
