@@ -3,9 +3,9 @@
 # ----------------------- #
 
 url: http://duckworthd.github.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+title: Bayesian World
+subtitle: 
+author: duckworthd
 simple_search: http://google.com/search
 description:
 
@@ -33,7 +33,7 @@ destination: public
 plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories
-markdown: rdiscount
+markdown: kramdown
 pygments: false # default python pygments have been replaced by pygments.rb
 
 paginate: 10          # Posts per page on the blog index
