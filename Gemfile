@@ -4,7 +4,7 @@ group :development do
   gem 'rake'
   gem 'rack'
   gem 'jekyll'
-  gem 'rdiscount'
+  gem 'rdiscount', :git => "git://github.com/luikore/rdiscount"
   gem 'kramdown'
   gem 'pygments.rb'
   gem 'RedCloth'
