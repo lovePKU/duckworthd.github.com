@@ -35,6 +35,7 @@ and communicate with each other.  To make the best use of his forces, he
 divvies up his troops into squads of the appropriate size and begins the
 teleportation sequence.  After that, they are on their own.
 
+{% img center /images/starcraft/map-1.jpg %}
 
 Meanwhile, a traitorous Terran-friendly Archon watches silently from his ship
 orbiting the planet.  Telepathically he senses the location of each Dark
@@ -45,6 +46,7 @@ belongs to, he would be able to estimate the functionality of each Pylon.  On
 the other hand, if he knew how well each Pylon were working, then he would be
 better able to guess which Dark Templar came from which Pylon.
 
+{% img center /images/starcraft/map-2.jpg %}
 
 The problem of seeing data points (Dark Templar positions) that you _know_
 belong to individual clusters (squads) but not being able to directly observe
@@ -110,6 +112,10 @@ to which Pylon directly in this universe, it can help him figure out how each
 Pylon behaves.  In addition, the Dark Archon gets a better idea of how the
 opposing High Templar will assign his Dark Templar as the strategic value of
 each Pylon remains the same.
+
+{% img center /images/starcraft/map-1.jpg %}
+{% img center /images/starcraft/map-3.jpg %}
+{% img center /images/starcraft/map-4.jpg %}
 
 
 The problem I have just described is precisely that modeled by Latent Dirichlet
